@@ -32,7 +32,7 @@ p {
     line-height: 34px;
 }
 
-p::first-letter {
+p:first-of-type::first-letter {
     font-family: "Playfair Display", sans-serif;
     color: #171717;
     font-size: 110px;
@@ -40,7 +40,7 @@ p::first-letter {
     line-height: 92px;
     float: left;
     padding: 0 20px 0 0;
-  }
+}
 
   blockquote {
     font-size: 24px;
